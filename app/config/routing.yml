@@ -1,0 +1,8 @@
+nas_requetes:
+    resource: "@NasRequetesBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
